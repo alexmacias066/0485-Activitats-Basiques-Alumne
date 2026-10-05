@@ -19,7 +19,7 @@ public class Quadrat {
         perimetre = costat * 4;
         area = costat * costat;
         
-        System.out.println("El teu perímetre és: " + perimetre);
-        System.out.println("La teva àrea és: " + area);
+        System.out.println("Perímetre del quadrat = " + perimetre);
+        System.out.println("Àrea del quadrat = " + area);
     }
 }

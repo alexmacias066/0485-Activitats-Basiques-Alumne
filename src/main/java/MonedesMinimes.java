@@ -17,6 +17,7 @@ public class MonedesMinimes {
         //   1 moneda de 1 cèntims
 
         Scanner teclat = new Scanner(System.in);
+        
         System.out.println("Introdueix els cèntims: ");
         int centims = teclat.nextInt();
 

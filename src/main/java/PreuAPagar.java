@@ -11,19 +11,19 @@ public class PreuAPagar {
 
         Scanner teclat = new Scanner(System.in);
         
-        System.out.println("Unitats comprades: ");
-        Double unitatsComprades = teclat.nextDouble();
+        System.out.println("Unitats: ");
+        int unitatsComprades = teclat.nextInt();
        
-        System.out.println("Preu unitats: ");
+        System.out.println("Preu unitari: ");
         Double preuUnitari = teclat.nextDouble();
         
-        System.out.println("Introdueix el descompte: ");
+        System.out.println("Descompte: ");
         Double descompte = teclat.nextDouble();
 
         Double preufinal = unitatsComprades * preuUnitari;
         Double preudescompte = preufinal * descompte/100;
         Double preutotal = preufinal - preudescompte;
         
-        System.out.println("El preu a pagar es: " + preutotal);
+        System.out.println("El valor a pagar serà: " + preutotal + "euros");
     }
 }

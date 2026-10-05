@@ -19,7 +19,7 @@ public class Rectangle {
         int perimetre = costatGran * 2 + costatPetit * 2;
         int area = costatGran * costatPetit;
 
-        System.out.println("El perímetre del rectangle és: " + perimetre);
-        System.out.println("La àrea del rectangle és: " + area);
+        System.out.println("Perímetre del rectangle = " + perimetre);
+        System.out.println("Àrea del rectangle = " + area);
     }
 }

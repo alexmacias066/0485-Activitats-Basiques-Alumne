@@ -11,19 +11,19 @@ public class SumaMitjana {
 
         Scanner teclat = new Scanner(System.in);
         
-        System.out.println("Introdueix els teus 4 números: ");
+        System.out.println("Introdueix 4 enters: ");
         
-        Double numero1 = teclat.nextDouble();
-        Double numero2 = teclat.nextDouble();
-        Double numero3 = teclat.nextDouble();
-        Double numero4 = teclat.nextDouble();
+        int numero1 = teclat.nextInt();
+        int numero2 = teclat.nextInt();
+        int numero3 = teclat.nextInt();
+        int numero4 = teclat.nextInt();
         
-        Double suma = numero1 + numero2 + numero3 + numero4;
+        int suma = numero1 + numero2 + numero3 + numero4;
         
-        System.out.println("La suma és: " + suma);
+        System.out.println("Suma = " + suma);
         
-        Double mitjana = suma/4;  
+        int mitjana = suma/4;  
         
-        System.out.println("La mitjana és: " + mitjana);
+        System.out.println("Mitjana = " + mitjana);
     } 
 } 
